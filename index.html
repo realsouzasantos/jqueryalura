@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html leng="pt-br">
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title> Front End Projeto Final</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/palestrante.css">
+	<link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="main-menu">
+			<ul>
+				<li class="menu-item"><a href="#panel-about">SOBRE</a></li>
+				<li class="menu-item"><a href="#panel-speaker">PALESTRANTES</a></li>
+			</ul>
+		</nav>
+		<div class=jumbotron>
+			<section id="panel-about" class="panel-main">
+				<h1 class="titulo">ALURA CONF</h1>
+				<h2 class="subtitulo">30MAIO|RIO</h2>
+			</section> 
+			<section class=panel-subscribe>
+				<ul>
+					<li id="botao-inscrever"><a href="#panel-form">INSCREVA-SE</a></li>
+				</ul>
+			</section>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<h1 class="titulo2">Muito conteúdo: do front-end ao back-end</h1>
+			<h2 class="subtitulo2">30 de Maio de 2017 - na Cidade Maravilhosa</h2>
+			<p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.</p>
+			<p>É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvedor híbrido, UX, além da parte backend com Rest, Microservices e BigData. O desenvolvedor atualizado vai estar aqui.</p> 
+
+		</div>
+
+	</main>
+
+	<section id="panel-speaker" class="panel-speaker">
+		<div class="container">
+			<div class="about-speakers">
+				<h1>PALESTRANTES</h1>
+				<h2>Aprenda com os palestrantes que são referência no mercado</h2>
+			</div>
+			<ul>			
+				<li class="speaker">
+					<figure class="speaker-portrait">
+						<img src="img/palestrantes/placeholder.jpeg">
+						<figcaption class="speaker-name">Flávio Almeida</figcaption>
+						<p class="speaker-bio">Desenvolvedor e Instrutor da Caelum</p>
+					</figure>
+					<p>To be or not to be MEAN</p>
+				</li>
+				<li class="speaker">
+					<figure class="speaker-portrait">
+						<img src="img/palestrantes/placeholder.jpeg">
+						<figcaption class="speaker-name">Flávio Almeida</figcaption>
+						<p class="speaker-bio">Desenvolvedor e Instrutor da Caelum</p>
+					</figure>
+					<p>To be or not to be MEAN</p>
+				</li>
+				<li class="speaker">
+					<figure class="speaker-portrait">
+						<img src="img/palestrantes/placeholder.jpeg">
+						<figcaption class="speaker-name">Flávio Almeida</figcaption>
+						<p class="speaker-bio">Desenvolvedor e Instrutor da Caelum</p>
+					</figure>
+					<p>To be or not to be MEAN</p>
+				</li>
+				<li class="speaker">
+					<figure class="speaker-portrait">
+						<img src="img/palestrantes/placeholder.jpeg">
+						<figcaption class="speaker-name">Flávio Almeida</figcaption>
+						<p class="speaker-bio">Desenvolvedor e Instrutor da Caelum</p>
+					</figure>
+					<p>To be or not to be MEAN</p>
+				</li>
+				<li class="speaker">
+					<figure class="speaker-portrait">
+						<img src="img/palestrantes/placeholder.jpeg">
+						<figcaption class="speaker-name">Flávio Almeida</figcaption>
+						<p class="speaker-bio">Desenvolvedor e Instrutor da Caelum</p>
+					</figure>
+					<p>To be or not to be MEAN</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="panel-form" class="formulario">
+		<div class="container">
+			<div>
+				<h1 class="seusdados">SEUS DADOS</h1>
+			</div>
+			<form>
+				<div class="field">
+					<label class="nomereq">NOME</label>
+					<input type="text" class="nome" required>
+				</div>
+				<div class="field">
+					<label class="emailreq">E-MAIL</label>
+					<input type="text" class="email" required>
+				</div>
+				<div class="button-place">
+					<button class="button">REALIZAR INSCRIÇÃO</button>
+				</div>
+			</form>
+		</div>
+	</section>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
